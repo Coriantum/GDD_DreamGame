@@ -15,8 +15,15 @@
     7. Monetización
 3. Gameplay y mecánicas
     1. Gameplay
+        1. Sistema de progresión
+        2. Dificultad del juego
+        3. Estructura del juego
     2. Mecánicas
-        1. Sistema de Progresión
+        1. Movimiento
+        2. Camara
+        3. Acciones
+        4. Combate
+        5. Economía
     3. Apartado gráfico
 4. Historia,mundo y personajes
     1. Historia
@@ -62,3 +69,37 @@ El objetivo es que llegue a todo el mundo. Sin embargo,la prioridad es que llegu
 ## Referencias
 
 ## Monetización
+
+
+# Gameplay y Mecánicas
+## Gameplay
+### Sistema de progresión
+El sistema será parecido al de un RPG convencional,poseerá:
+1. Sistema de niveles
+
+2. Árbol de habilidades
+
+3. Sistema de Jobs
+
+### Dificutad del juego
+Se procurará contentar a todos a partir de 2 opciones que quieran elegir:
+1. Establecer niveles de dificutad.
+2. Aprendizaje de la IA de los NPCs teniendo en cuenta la jugabilidad del usuario.
+
+### Estructura del juego
+Al ser un mundo completamente procedural, habrá generación aleatoria de escenarios, dungeons, enemigos, NPCs, objetos.
+Pero eso no es todo: Con este sistema queremos que la generación del propio mundo posea también cambios en el ámbito gráfico(Se explicará en su apartado) y en el sistema de combate, las cuales podrían cambiar durante el transcurso del juego dependiendo del jugador y sus preferencias y/o decisiones.
+
+## Mecanicas
+### Movimiento
+Dependerá de la generación del mundo,se establecerán varios estándares:
+
+
+### Camara
+Según la generación del nivel, habrán varias posiciones:
+
+1. Vista 1ª Persona
+2. Vista 3ª Persona
+    1. Vista Top Down
+    2. Vista a espaldas del jugador(Acción,Hack & Slash...)
+    3. Vista horizontal: Modo por turnos
