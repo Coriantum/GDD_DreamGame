@@ -39,14 +39,14 @@
 Project Dimensional
 
 ### Catchy quote
-El RPG perfecto
+El RPG perfecto / Oda a los RPGs
 
 # Resumen del Juego
 ## Concepto del juego
 RPG con mundo, historia procedural y jugabilidad multifuncional,donde cada jugador tendrá una experiencia diferente según sus gustos.
 
 ## Descripción
-El juego poseerá una historia introductoria,situada en la que llamaríamos "El primer mundo",dando como referencia a los primeros RPGs que influyeron en la industria.
+El juego poseerá una historia introductoria,situada en la que llamaríamos "El primer mundo",dando como referencia al primer RPG que jugamos cada uno.
 
 Durante ese tiempo,según la jugabilidad,decisiones,gustos,etc del jugador, aparecerá más adelante un mundo creado para él.
 
@@ -71,6 +71,7 @@ El objetivo es que llegue a todo el mundo. Sin embargo,la prioridad es que llegu
 ## Monetización
 
 
+
 # Gameplay y Mecánicas
 ## Gameplay
 ### Sistema de progresión
@@ -90,7 +91,25 @@ Se procurará contentar a todos a partir de 2 opciones que quieran elegir:
 Al ser un mundo completamente procedural, habrá generación aleatoria de escenarios, dungeons, enemigos, NPCs, objetos.
 Pero eso no es todo: Con este sistema queremos que la generación del propio mundo posea también cambios en el ámbito gráfico(Se explicará en su apartado) y en el sistema de combate, las cuales podrían cambiar durante el transcurso del juego dependiendo del jugador y sus preferencias y/o decisiones.
 
+
 ## Mecanicas
+El apartado de mecanicas es con diferencia la más compleja de realizar,sin embargo, es la principal parte por la que existiría el juego.
+
+El objetivo es que sea un mundo completamente procedural, por lo que habrá generación aleatoria de escenarios, dungeons, enemigos, NPCs, objetos,etc.
+Pero eso no es todo: Con este sistema queremos que la generación del propio mundo posea también cambios en el ámbito gráfico(Se explicará en su apartado) y en el sistema de combate, las cuales podrían cambiar durante el transcurso del juego dependiendo del jugador y sus preferencias y/o decisiones.
+
+Para que el juego tenga una base sólida, lo planteamos de esta manera:
+Antes de la partida,el jugador eligirá unas preferencias, que serán:
+1. Cámara
+2. Tipo de Combate
+3. Apartado gráfico
+Estas tres podrán mezclarse entre ellas,dando lugar a cosas como un action RPG, pixel art y en 3ª persona.
+
+Tras las preferencias establecidas, se generaría "El primer mundo" y con él,el inicio de la partida.
+Pero dijimos que el juego estaría en continuo cambio,no?
+Efectivamente,tras el inicio,que será el mismo para todos, por motivos de la trama,el mundo tal y como lo creamos pasa a descontrolarse; y en ese punto es donde da comienzo la generación
+
+
 ### Movimiento
 Dependerá de la generación del mundo,se establecerán varios estándares:
 
@@ -101,5 +120,38 @@ Según la generación del nivel, habrán varias posiciones:
 1. Vista 1ª Persona
 2. Vista 3ª Persona
     1. Vista Top Down
-    2. Vista a espaldas del jugador(Acción,Hack & Slash...)
+    2. Vista a espaldas del jugador(Action RPG)
     3. Vista horizontal: Modo por turnos
+
+### Acciones
+
+
+### Combate
+Junto con el apartado gráfico y generacion de mundos, este poseerá varios estilos:
+1. Combate por turnos, haciendo referencia a los primeros RPG
+2. Combate a tiempo real
+3. Combate tipo "Dark Souls"
+
+### Economía del juego
+Tendrá una moneda propia del juego,se podrá ganar a partir de recompensas o al derrotar enemigos.
+Para objetos especiales,a parte de la moneda, se requerirán otros objetos que se podrán encontrar en el mundo para sus intercambios.
+
+
+## Apartado gráfico
+Esta es una de las piedras angulares del juego, ya que la generación de los mundos tendrá un determinado estilo gráfico dependiendo de las preferencias establecidas y decisiones del jugador durante la historia.
+
+Dichos estilos serán de acuerdo al estilo que se juegue:
+1. Pixel Art 2D:
+
+2. 3D Poligonal, recordando las generaciones de PS1 o PS2.
+
+3. 3D estética anime o pixar
+
+4. 3D realista: Estilos como Dark Souls
+
+
+# Historia, mundo y personajes
+## Historia
+Comienza en el "primer mundo", lugar donde da comienzo todo. Nuestro protagonista junto con su grupo, ha derrotado al villano, y se convierte en el héroe.
+Tras este suceso, en el mundo empieza haber ciertas anomalías que solo el protagonista ve y no logra comprender.
+El mimso decide investigar,ya que todas estas parecían provenir de un mismo punto
