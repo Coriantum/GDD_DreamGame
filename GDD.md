@@ -35,10 +35,10 @@
 
 
 # Inicio
-### Nombre del juego
+## Nombre del juego
 Project Dimensional
 
-### Catchy quote
+## Catchy quote
 El RPG perfecto / Oda a los RPGs
 
 # Resumen del Juego
@@ -75,6 +75,7 @@ El objetivo es que llegue a todo el mundo. Sin embargo,la prioridad es que llegu
 # Gameplay y Mecánicas
 ## Gameplay
 ### Sistema de progresión
+Estos sistemas serán independientes de cada estilo de combate,donde cada uno tendrá sus ventajas.
 El sistema será parecido al de un RPG convencional,poseerá:
 1. Sistema de niveles
 
@@ -88,6 +89,7 @@ Se procurará contentar a todos a partir de 2 opciones que quieran elegir:
 2. Aprendizaje de la IA de los NPCs teniendo en cuenta la jugabilidad del usuario.
 
 ### Estructura del juego
+El objetivo es que cada jugador tenga una forma de jugar el juego de manera única.
 Al ser un mundo completamente procedural, habrá generación aleatoria de escenarios, dungeons, enemigos, NPCs, objetos.
 Pero eso no es todo: Con este sistema queremos que la generación del propio mundo posea también cambios en el ámbito gráfico(Se explicará en su apartado) y en el sistema de combate, las cuales podrían cambiar durante el transcurso del juego dependiendo del jugador y sus preferencias y/o decisiones.
 
@@ -96,7 +98,7 @@ Pero eso no es todo: Con este sistema queremos que la generación del propio mun
 El apartado de mecanicas es con diferencia la más compleja de realizar,sin embargo, es la principal parte por la que existiría el juego.
 
 El objetivo es que sea un mundo completamente procedural, por lo que habrá generación aleatoria de escenarios, dungeons, enemigos, NPCs, objetos,etc.
-Pero eso no es todo: Con este sistema queremos que la generación del propio mundo posea también cambios en el ámbito gráfico(Se explicará en su apartado) y en el sistema de combate, las cuales podrían cambiar durante el transcurso del juego dependiendo del jugador y sus preferencias y/o decisiones.
+Pero eso no es todo: Con este sistema queremos que la generación del propio mundo posea también cambios en el ámbito gráfico(Se explicará en su apartado) y en el sistema de combate, las cuales podrían cambiar durante el transcurso del juego dependiendo del jugador, sus preferencias y/o decisiones.
 
 Para que el juego tenga una base sólida, lo planteamos de esta manera:
 Antes de la partida,el jugador eligirá unas preferencias, que serán:
@@ -105,13 +107,16 @@ Antes de la partida,el jugador eligirá unas preferencias, que serán:
 3. Apartado gráfico
 Estas tres podrán mezclarse entre ellas,dando lugar a cosas como un action RPG, pixel art y en 3ª persona.
 
-Tras las preferencias establecidas, se generaría "El primer mundo" y con él,el inicio de la partida.
-Pero dijimos que el juego estaría en continuo cambio,no?
-Efectivamente,tras el inicio,que será el mismo para todos, por motivos de la trama,el mundo tal y como lo creamos pasa a descontrolarse; y en ese punto es donde da comienzo la generación
+
 
 
 ### Movimiento
-Dependerá de la generación del mundo,se establecerán varios estándares:
+Dependerá de la generación del mundo,se establecerán varios estándares o habrán distintas limitaciones:
+1. Si es RPG por turnos, no habrá libertad de movimiento en el sistema de combate
+2. Action RPG: 
+    1. Movimiento más responsivo,acercandose al estilo de un Hack & Slash
+    2. Más lento y pesado, acercándose a un Soulslike
+3. Si es 2D o 3D.
 
 
 ### Camara
@@ -123,7 +128,11 @@ Según la generación del nivel, habrán varias posiciones:
     2. Vista a espaldas del jugador(Action RPG)
     3. Vista horizontal: Modo por turnos
 
+Para hacerlo más llamativo,la cámara tendrá filtros para cada situación.
+
 ### Acciones
+Las acciones o interacciones del personaje del mundo influirán el la generación de este.
+Pondré un ejemplo: Tienes una misión secundaria, y en esta tienes varias posibilidades de rematarla. Dependiendo del resultado, el nivel de 
 
 
 ### Combate
@@ -141,7 +150,8 @@ Para objetos especiales,a parte de la moneda, se requerirán otros objetos que s
 Esta es una de las piedras angulares del juego, ya que la generación de los mundos tendrá un determinado estilo gráfico dependiendo de las preferencias establecidas y decisiones del jugador durante la historia.
 
 Dichos estilos serán de acuerdo al estilo que se juegue:
-1. Pixel Art 2D:
+1. Pixel Art 2D
+Este será el estilo por defecto del juego, y cambiará con los otros de manera procedural
 
 2. 3D Poligonal, recordando las generaciones de PS1 o PS2.
 
@@ -150,8 +160,25 @@ Dichos estilos serán de acuerdo al estilo que se juegue:
 4. 3D realista: Estilos como Dark Souls
 
 
+
 # Historia, mundo y personajes
 ## Historia
-Comienza en el "primer mundo", lugar donde da comienzo todo. Nuestro protagonista junto con su grupo, ha derrotado al villano, y se convierte en el héroe.
-Tras este suceso, en el mundo empieza haber ciertas anomalías que solo el protagonista ve y no logra comprender.
-El mimso decide investigar,ya que todas estas parecían provenir de un mismo punto
+Comienza en el "primer mundo", lugar donde da comienzo todo. Unos años atrás, hubo una catástrofe que provocó la inestabilidad del mundo y potencial fin de esta para dentro de 10 años.
+Tras este suceso, los habitantes procuran alejarse lo maximo posible del punto de la catastrofe, ya que su influencia por el momento no está llegando en su totalidad.
+8 años más tarde, se daría a conocer al protagonista, quien decide ser uno de los .
+
+
+## Mundo
+Mundo abierto por generación procedural. El mundo base será un RPG 2D. 
+Debido a las anomalías, de manera aleatoria, cambiará de "biomas"(Estilo gráfico y jugabilidad).
+
+
+
+## Personajes
+
+
+Más adelante habrá otros personbajes que acompañarán al protagonista
+
+
+# Niveles(ideas de desarrollo)
+A pesar de ser un mundo abierto, este estará limitado por "fases" según el progreso del jugador en la historia.
