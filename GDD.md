@@ -78,7 +78,7 @@ Las principales referencias las buscamos de:
 
 - Actual:
 ![Final Fantasy XV](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF15.jpg)
-![Final Fantasy XV](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF15_1.gif)
+![Final Fantasy XV](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/ff15_1.gif)
 
 2. Persona 5
 
