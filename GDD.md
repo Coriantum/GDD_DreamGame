@@ -73,8 +73,8 @@ Las principales referencias las buscamos de:
 1. Final Fantasy 
 - Referencias estilos "poligonales":
 ![Final Fantasy VII](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF7.jpg)
-![Final Fantasy VII](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF7_1.jpg)
-![Final Fantasy IX](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF9.gif)
+![Final Fantasy VII](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF7_1.gif)
+![Final Fantasy IX](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF9.jpg)
 
 - Actual:
 ![Final Fantasy XV](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF15.jpg)
