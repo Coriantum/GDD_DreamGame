@@ -73,21 +73,27 @@ Las principales referencias las buscamos de:
 1. Final Fantasy 
 - Referencias estilos "poligonales":
 ![Final Fantasy VII](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF7.jpg)
-![Final Fantasy IX](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF9.jpg)
+![Final Fantasy VII](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF7_1.jpg)
+![Final Fantasy IX](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF9.gif)
 
 - Actual:
 ![Final Fantasy XV](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF15.jpg)
+![Final Fantasy XV](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF15_1.gif)
 
 2. Persona 5
+
 ![Persona 5](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/Persona5.jpg)
 
 3. Octopath Traveller
+
 ![Octopath Traveller](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/Octopath-Traveller_Reference.jpg)
 
 4. The Witcher
-![The Witcher 3](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/Witcher.jpg)
+
+![The Witcher 3](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/Witcher.gif)
 
 5. No Man's Sky
+
 ![No Man's Sky](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/Sky.jpg)
 
 
@@ -182,20 +188,20 @@ Estas serán todas las posibilidades en la jugabilidad:
 1. 2D
     1. Pixel + Combate por turnos
 2. 3D
-    1. Pixel Art 3D
+    1. Bioma Pixel Art 3D
         1. Por turnos
         2. Accion
-    2. Poligonal
+    2. Bioma Poligonal
         1. Por turnos
         2. Acción
             1. Estilo "The Witcher"
             2. Hack & Slash
-    3. Animado
+    3. Bioma Animado
         1. Por turnos
         2. Acción
             1. Estilo "The Witcher"
             2. Hack & Slash
-    4. Realista
+    4. Bioma Realista
         1. Por turnos
         2. Acción
             1. Estilo "The Witcher"
@@ -226,8 +232,8 @@ Este será el estilo por defecto del juego.
 
     4. 3D realista: Estilos como The Witcher
 
-### Como afecta esto al personaje?
-Ellos no cambiarían por la influencia de los biomas, cambiarían según la preferencia del jugador.
+### Afecta esto al personaje?
+Si, pero el sistema de jugabilidad no, ya que los jugadores tienen la capacidad de cambiarlo.
 
 
 
