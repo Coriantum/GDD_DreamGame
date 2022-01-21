@@ -27,6 +27,7 @@
         4. Combate
         5. Opciones de Jugabilidad
         6. Economía
+        7. Objetos
     3. Apartado gráfico
 4. Historia,mundo y personajes
     1. Historia
@@ -34,7 +35,6 @@
     3. Personajes
 5. Niveles(Ideas de desarrollo)
 6. Música y sonido
-7. Datos tecnicos y enfoque
 
 
 
@@ -47,11 +47,11 @@ El RPG perfecto / Oda a los RPGs
 
 # Resumen del Juego
 ## Concepto del juego
-RPG con mundo, historia procedural y jugabilidad multifuncional,donde cada jugador tendrá una experiencia diferente según sus gustos.
+RPG con mundo, narrativa procedural y jugabilidad multifuncional,donde cada jugador tendrá una experiencia diferente según sus gustos.
 
 ## Descripción
 El juego poseerá una historia introductoria,situada en la que llamaríamos "El primer mundo",dando como referencia al primer RPG que jugamos cada uno.
-Durante ese tiempo,según la jugabilidad y decisiones del jugador, se irá creando un mundo para él.
+Tras esto,según la jugabilidad y decisiones del jugador, se irá creando un mundo para él.
 
 ## Género
 MRPG o PRPG(Multifunctional/Procedural Role-Playing Game), en 1ª o 3ª persona.
@@ -124,17 +124,17 @@ Las unicas habilidades "fijas" serían las de los Jobs.
 3. Sistema de Jobs: 
 Se establecerán 3 grupos de maestría:
 
-**- Basico**
+- Basico
     1. Mago
     2. Ladrón
     3. Guerrero
     4. Mercante
-**- Intermedio**
+- Intermedio
     1. Mago Blanco
     2. Mago Negro
     3. Lancero
     4. Caballero
-**- Maestro**
+- Maestro
     1. Caballero oscuro
     2. Paladín
     3. Mago Supremo
@@ -156,8 +156,8 @@ La variable a tener en cuenta para llegar a esos puntos es completar un cierto n
 
 
 
-## Mecanicas
-El apartado de mecanicas es con diferencia la más compleja de realizar,sin embargo, es la principal parte por la que existiría el juego.
+## Mecánicas
+El apartado de mecánicas es con diferencia la más compleja de realizar,sin embargo, es la principal parte por la que existiría el juego.
 
 El objetivo es que sea un mundo completamente procedural, por lo que habrá generación aleatoria de escenarios, dungeons, pueblos, enemigos, NPCs, objetos,etc.
 
@@ -181,7 +181,7 @@ Dependerá de la generación del mundo,se establecerán varios estándares o hab
 3. Si es 2D o 3D.
 
 
-### Camara
+### Cámara
 Según la generación del nivel, habrán varias posiciones:
 1. Camara para el estilo RPG por turnos.
 2. Vista 3ª Persona
@@ -250,9 +250,21 @@ Tendrá una moneda propia del juego,se podrá ganar a partir de recompensas o al
 Para objetos especiales,a parte de la moneda, se requerirán otros objetos que se podrán encontrar en el mundo para sus intercambios.
 
 
+### Objetos
+Habrán:
+1. Objetos claves del juego
+2. Armas
+3. Objetos de uso para las batallas
+4. Objetos para mejora de armas o armaduras
+5. Armaduras y accesorios
+
+Las estadisticas de las armas,armaduras y accesorios serán completamente diferentes entre ellos; y se podrán conseguir de manera aleatoria en las recompensas de los enemigos al ser derrotados.
+También habrán también objetos únicos, que obviamente serán más dificiles de obtener.
+
+
 ## Apartado gráfico
 Esta es una de las piedras angulares del juego, ya que la generación de los mundos poseerá varios estilos gráficos a partir de biomas(tambien por generación procedural).
-Queremos que el estilo 2D Pixel Art sea el mundo base del juego; cuando se alejen de la zona no influenciada, se pasará al 3D y cambiará entre varios estilos según los biomas.
+Queremos que el estilo 2D Pixel Art sea el mundo base del juego; cuando se alejen de la zona no influenciada, se pasará al 3D y cambiará entre varios estilos o biomas.
 
 Dichos estilos serán:
 1. Pixel Art 2D
@@ -275,7 +287,7 @@ Si, pero el sistema de jugabilidad no, ya que los jugadores tienen la capacidad 
 
 # Historia, mundo y personajes
 ## Historia
-Comienza en el "primer mundo", lugar donde da comienzo todo. Unos años atrás, hubo una catástrofe que provocó la inestabilidad del mundo y potencial fin de esta para dentro de 10 años.
+Comienza en el "primer mundo", lugar donde da comienzo todo. Unos años atrás, hubo una catástrofe que provocó la inestabilidad del mundo y potencial fin de esta para dentro de unos 10 años.
 Tras este suceso, ocurren dos cosas:
 1. Los habitantes procuran alejarse lo maximo posible del punto de la catastrofe, ya que su influencia por el momento no está llegando del todo en ciertas zonas.
 2. Nace una enfermedad originaria de la catástrofe,llamada la **"Oscilación"**. Quien se contagie de ella, la inestabilidad afecta al cuerpo,dando lugar a cambios fisicos y genéticos,y por lo tanto,la muerte.
@@ -299,7 +311,7 @@ Durante el recorrido por el mundo,cuanto más nos acerquemos punto de origen de 
 ## Personajes
 Protagonista: Sufrió la Catástrofe en uno de los pueblos más cercanos al suceso cuando tenía 13 años. Debido a la cercanía del pueblo,fué tan devastador la Oscilación que ninguno logró escapar de su influencia,excepto él. Desde hacía 3 años, sufría glibastoma, el peor cáncer cerebral. Estaba al borde de la muerte, y la Oscilación convirtió ese estado en una habilidad.
 
-Más adelante habrá otros personajes que acompañarán al protagonista.
+Más adelante habrá otros personajes que acompañarán al protagonista y se completará en una proxima versión.
 
 
 
