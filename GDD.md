@@ -197,7 +197,7 @@ Pondré un ejemplo: Tienes una misión secundaria, y en esta tienes varias posib
 
 Se establecerán varias tendencias de generación de biomas según el comportamiento del jugador:
 
-![Acciones Personaje](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/AccionesPersonaje.png)
+![Acciones Personaje](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/AccionesPersonaje.PNG)
 
 1. Clasico --> La generación tenderá al sistema por turnos,2D
 2. Equilibro --> La generación tenderá a un sistema que va desde:
