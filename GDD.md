@@ -72,12 +72,17 @@ Las principales referencias las buscamos de:
 
 1. Final Fantasy 
 - Referencias estilos "poligonales":
+
 ![Final Fantasy VII](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF7.jpg)
-![Final Fantasy VII](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF7_1.gif)
+
 ![Final Fantasy IX](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF9.jpg)
 
 - Actual:
+
+![Final Fantasy VII Remake](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF7_1.gif)
+
 ![Final Fantasy XV](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/FF15.jpg)
+
 ![Final Fantasy XV](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/ff15_1.gif)
 
 2. Persona 5
@@ -109,12 +114,32 @@ Estos sistemas serán independientes de cada estilo de combate,donde cada uno te
 El sistema será parecido al de un RPG convencional,poseerá:
 1. Sistema de niveles
 
-2. Árbol de habilidades
+2. Árbol de habilidades: Habrá un arbol propio para cada estilo grafico del personaje. A mayores, como queremos estas sean únicas y personalizables, se podrán conseguir como objetos a partir de recompensas e introducirlo en nuestro árbol. 
+Dichas habilidades se podrán mejorar a partir de experiencia adquirida, pero habrá que tener en cuenta la "potencial" de estas para ver qué tanto pueden mejorar.
+Las unicas habilidades "fijas" serían las de los Jobs.
 
-3. Sistema de Jobs
+3. Sistema de Jobs: 
+Se establecerán 3 grupos de maestría:
+
+1. Basico
+    1. Mago
+    2. Ladrón
+    3. Guerrero
+    4. Mercante
+2. Intermedio
+    1. Mago Blanco
+    2. Mago Negro
+    3. Lancero
+    4. Caballero
+3. Maestro
+    1. Caballero oscuro
+    2. Paladín
+    3. Mago Supremo
+
+Para ascender a un Job de la siguiente maestría, se requerirán subir hasta cierto nivel el o los Jobs que te pidan.
 
 
-### Dificutad del juego
+### Dificultad del juego
 Se procurará contentar a todos teniendo en cuenta 2 cosas:
 1. Elegir un nivel de dificultad estandar para comenzar el juego.
 2. Aprendizaje de la IA de los NPCs teniendo en cuenta la jugabilidad del usuario. Dicha IA tendrá un límite de aprendizaje dependiendo del nivel de dificultad establecido. Si la dificultad elegida es la maxima, la IA tendrá total libertad de aprendizaje sobre tu sistema de juego.
@@ -137,7 +162,7 @@ Durante la partida, las decisiones del jugador provocarían cambios en:
 3. Apartado gráfico
 Estas tres podrán mezclarse entre ellas,dando lugar a cosas como un action RPG, pixel art y en 3ª persona.
 
-La unica limitación a tener en cuenta es en las dimensiones: Si es 2D,será por turnos y pixel art;
+La unica limitación a tener en cuenta es en las dimensiones: Si es 2D,será por turnos y pixel art.
 
 
 ### Movimiento
@@ -153,10 +178,9 @@ Dependerá de la generación del mundo,se establecerán varios estándares o hab
 Según la generación del nivel, habrán varias posiciones:
 1. Camara para el estilo RPG por turnos.
 2. Vista 3ª Persona
-    1. Vista Top Down
-    2. Vista a espaldas del jugador(Action RPG)
-    3. Vista horizontal: Modo por turnos
-3. Para jugabilidad 2D
+    1. Vista a espaldas del jugador(Action RPG)
+    2. Vista horizontal: Modo por turnos
+3. Top down para jugabilidad 2D
 
 Para hacerlo más llamativo,la cámara tendrá filtros para cada situación. Por ejemplo el bioma 3D Poligonal: Llevaría filtro de "suciedad" de la imagen como si se tratara de un juego de los 90. Dichos filtros podrían ser quitados por el jugador si no gustan.
 
@@ -164,7 +188,10 @@ Para hacerlo más llamativo,la cámara tendrá filtros para cada situación. Por
 Las acciones o interacciones del personaje del mundo influirán el la generación de este.
 Pondré un ejemplo: Tienes una misión secundaria, y en esta tienes varias posibilidades de rematarla. Dependiendo del resultado, podría dar una tendencia a tener más probabilidades de generación de un bioma.
 
-Se establecerán varias tendencias según el comportamiento del jugador:
+Se establecerán varias tendencias de generación de biomas según el comportamiento del jugador:
+
+![Acciones Personaje](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/AccionesPersonaje.jpg)
+
 1. Clasico --> La generación tenderá al sistema por turnos,2D
 2. Equilibro --> La generación tenderá a un sistema que va desde:
     1. Turnos 3D
@@ -179,7 +206,8 @@ Junto con el apartado gráfico y generacion de mundos, este poseerá varios esti
 2. Combate a tiempo real(En ámbitos 3D)
 3. Combate tipo "Hack & Slash",más frenético 
 
-Se podrá cambiar de estilos de combate,sin importar el bioma en el que se encuentre.
+Se podrá cambiar de estilos de combate.
+**Sin embargo, hay un gran pero:** Habrán habilidades propias para cada estilo gráfico del personaje
 
 
 ### Opciones en jugabilidad
@@ -233,7 +261,7 @@ Este será el estilo por defecto del juego.
     4. 3D realista: Estilos como The Witcher
 
 ### Afecta esto al personaje?
-Si, pero el sistema de jugabilidad no, ya que los jugadores tienen la capacidad de cambiarlo.
+Si, pero el sistema de jugabilidad no, ya que los jugadores tienen la capacidad de cambiarlo(Dentro de lo especificado en las opciones de jugabilidad)
 
 
 
@@ -243,23 +271,21 @@ Si, pero el sistema de jugabilidad no, ya que los jugadores tienen la capacidad 
 Comienza en el "primer mundo", lugar donde da comienzo todo. Unos años atrás, hubo una catástrofe que provocó la inestabilidad del mundo y potencial fin de esta para dentro de 10 años.
 Tras este suceso, ocurren dos cosas:
 1. Los habitantes procuran alejarse lo maximo posible del punto de la catastrofe, ya que su influencia por el momento no está llegando del todo en ciertas zonas.
-2. Nace una enfermedad originaria de la catástrofe,llamada la "Oscilación". Quien se contagie de ella, la inestabilidad afecta al cuerpo,dando lugar a cambios fisicos y genéticos,y por lo tanto,la muerte.
+2. Nace una enfermedad originaria de la catástrofe,llamada la **"Oscilación"**. Quien se contagie de ella, la inestabilidad afecta al cuerpo,dando lugar a cambios fisicos y genéticos,y por lo tanto,la muerte.
 3. Los animales tambien fueron afectados, y mutan a monstruos de los que tendrán los habitantes que protegerse.
 
-8 años más tarde,la catastrofe y su influencia se va extendiendo,la población va enfermando. Durante este tiempo, se ha descubierto que la propia Oscilación afecta a las personas en función de la salud de cada uno. Aquellas que tienen una enfermedad genética tienen un mayor aguante a la Oscilacion. Entre esas personas están las llamadas "MutaGen". Ellos son los que poseen las enfermadades geneticas más graves o en estado terminal. Al ser contagiados, son capaces de controlar la Oscilación y dichas enfermedades son contenidas. Ellos son la esperanza del mundo.
+8 años más tarde,la catastrofe y su influencia se va extendiendo,la población va enfermando. Durante este tiempo, se ha descubierto que la propia Oscilación afecta a las personas en función de la salud de cada uno. Aquellas que tienen una enfermedad genética tienen un mayor aguante a la Oscilacion. Entre esas personas están las llamadas **"MutaGen"**. Ellos son los que poseen las enfermadades geneticas más graves o en estado terminal. Al ser contagiados, son capaces de controlar la Oscilación y dichas enfermedades son contenidas. Ellos son la esperanza del mundo.
 Otro dato a tener en cuenta es que los investigadores creen que si se logra que desaparezca la oscilación, los MutaGen morirán,ya que sus enfermedades continuarían su curso.
-Tras esto,el protagonista y su grupo comenzarían su camino.
+Tras esto,el protagonista y su grupo comenzarían su camino en búsqueda del fin de la catástrofe.
 
-En el momento en el que salgan de la zona "segura", la historia tendrá una narrativa procedural: El trayecto a los puntos de inflexión que permitan continuar con la trama serán diferentes para cada jugador.
-
-### Fin del juego
+En el momento en el que salgan de la zona "segura", la historia tendrá una narrativa procedural: El trayecto hacia los puntos de inflexión que permitan continuar con la trama serán diferentes para cada jugador.
 
 
 
 ## Mundo
 Mundo abierto por generación procedural. El mundo base será un RPG 2D. 
 Debido a las anomalías, poseerán diferentes "biomas", que cambiarán continuamente.
-Durante el recorrido por el mundo,cuanto más nos acerquemos al objetivo, mayor será la riqueza de biomas.
+Durante el recorrido por el mundo,cuanto más nos acerquemos punto de origen de la catástrofe, mayor será la variedad de biomas.
 
 
 
@@ -273,6 +299,7 @@ Más adelante habrá otros personajes que acompañarán al protagonista.
 # Música y sonido
 La mejor referencia para esto se encuentra an Nier Autómata.
 La intención es que la BSO y efectos de sonido sean diferentes dependiendo del bioma en el que se encuentre:
+
 1. Pixel Art 2D: Música y efectos en 8bits 
 
 2. 3D
