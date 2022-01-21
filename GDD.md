@@ -4,13 +4,15 @@
 1. Inicio
     1. Nombre del Juego
     2. Catchy quote
-    3. 
 2. Resumen del Juego
     1. Concepto del juego
     2. Descripción
     3. Género
     4. Plataforma
     5. Audiencia objetivo
+        1. Rango de Edad
+        2. Tipo de Jugador/Usuario
+        3. Mercado Geográfico
     6. Referencias
     7. Monetización
 3. Gameplay y mecánicas
@@ -23,7 +25,8 @@
         2. Camara
         3. Acciones o decisiones
         4. Combate
-        5. Economía
+        5. Opciones de Jugabilidad
+        6. Economía
     3. Apartado gráfico
 4. Historia,mundo y personajes
     1. Historia
@@ -112,7 +115,7 @@ Venta del producto a 70 euros.
 ### Sistema de progresión
 Estos sistemas serán independientes de cada estilo de combate,donde cada uno tendrá sus ventajas.
 El sistema será parecido al de un RPG convencional,poseerá:
-1. Sistema de niveles
+1. Sistema de niveles: 1 al nivel 100. Durante la progresion de niveles, se irá ampliando el numero de ranuras a añadir en el arbol de habilidades.
 
 2. Árbol de habilidades: Habrá un arbol propio para cada estilo grafico del personaje. A mayores, como queremos estas sean únicas y personalizables, se podrán conseguir como objetos a partir de recompensas e introducirlo en nuestro árbol. 
 Dichas habilidades se podrán mejorar a partir de experiencia adquirida, pero habrá que tener en cuenta la "potencial" de estas para ver qué tanto pueden mejorar.
@@ -121,22 +124,22 @@ Las unicas habilidades "fijas" serían las de los Jobs.
 3. Sistema de Jobs: 
 Se establecerán 3 grupos de maestría:
 
-1. Basico
+**- Basico**
     1. Mago
     2. Ladrón
     3. Guerrero
     4. Mercante
-2. Intermedio
+**- Intermedio**
     1. Mago Blanco
     2. Mago Negro
     3. Lancero
     4. Caballero
-3. Maestro
+**- Maestro**
     1. Caballero oscuro
     2. Paladín
     3. Mago Supremo
 
-Para ascender a un Job de la siguiente maestría, se requerirán subir hasta cierto nivel el o los Jobs que te pidan.
+Para ascender a un Job de la siguiente maestría, se requerirán subir hasta cierto nivel los Jobs que te pidan.
 
 
 ### Dificultad del juego
@@ -146,7 +149,11 @@ Se procurará contentar a todos teniendo en cuenta 2 cosas:
 
 
 ### Estructura del juego
-El objetivo es que cada jugador tenga una experiencia de juego unica.
+El objetivo es que cada jugador tenga una experiencia de juego única.
+La historia tendrá una **narrativa procedural**: El trayecto hacia los puntos de inflexión que permitan continuar con la trama serán diferentes para cada jugador.
+Cada uno de esos puntos que permiten el avance de la historia se generarían en zonas totalmente diferentes para cada jugador.
+La variable a tener en cuenta para llegar a esos puntos es completar un cierto numero de misiones secundarias.
+
 
 
 ## Mecanicas
@@ -190,7 +197,7 @@ Pondré un ejemplo: Tienes una misión secundaria, y en esta tienes varias posib
 
 Se establecerán varias tendencias de generación de biomas según el comportamiento del jugador:
 
-![Acciones Personaje](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/AccionesPersonaje.jpg)
+![Acciones Personaje](https://github.com/Coriantum/GDD_DreamGame/blob/main/Imagenes%20GDD/AccionesPersonaje.png)
 
 1. Clasico --> La generación tenderá al sistema por turnos,2D
 2. Equilibro --> La generación tenderá a un sistema que va desde:
@@ -206,8 +213,8 @@ Junto con el apartado gráfico y generacion de mundos, este poseerá varios esti
 2. Combate a tiempo real(En ámbitos 3D)
 3. Combate tipo "Hack & Slash",más frenético 
 
-Se podrá cambiar de estilos de combate.
-**Sin embargo, hay un gran pero:** Habrán habilidades propias para cada estilo gráfico del personaje
+Se podrá cambiar de estilos de combate excepto cuando se esté en la dimensión 2D.
+También habrá que tener en cuenta que **habrán habilidades propias para cada estilo gráfico del personaje.**
 
 
 ### Opciones en jugabilidad
@@ -312,7 +319,3 @@ La intención es que la BSO y efectos de sonido sean diferentes dependiendo del 
     4. 3D realista: Estilos como The Witcher: BSO más oscura
 
 
-
-
-# Niveles(ideas de desarrollo)
-A pesar de ser un mundo abierto, este estará limitado por "fases" según el progreso del jugador en la historia. Cuanto más avanzada la historia, más mundo por recorrer.
