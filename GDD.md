@@ -54,7 +54,7 @@ El juego poseerá una historia introductoria,situada en la que llamaríamos "El 
 Tras esto,según la jugabilidad y decisiones del jugador, se irá creando un mundo para él.
 
 ## Género
-MRPG o PRPG(Multifunctional/Procedural Role-Playing Game), en 1ª o 3ª persona.
+MRPG o PRPG(Multifunctional/Procedural Role-Playing Game), en 3ª persona.
 
 ## Plataforma
 Nueva Gerenación: PC,PS5,Series X
